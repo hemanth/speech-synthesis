@@ -1,0 +1,28 @@
+{
+  "name": "speech-synthesis",
+  "version": "0.0.0",
+  "description": "My majestic module",
+  "license": "MIT",
+  "repository": "hemanth/speech-synthesis",
+  "author": {
+    "name": "hemanth",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
