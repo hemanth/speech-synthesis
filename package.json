@@ -1,6 +1,6 @@
 {
   "name": "speech-synthesis",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Speaks using the Web Speech API.",
   "license": "MIT",
   "repository": "hemanth/speech-synthesis",
