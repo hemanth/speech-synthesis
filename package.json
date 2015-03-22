@@ -1,7 +1,7 @@
 {
   "name": "speech-synthesis",
   "version": "0.3.0",
-  "description": "My majestic module",
+  "description": "Speaks using the Web Speech API.",
   "license": "MIT",
   "repository": "hemanth/speech-synthesis",
   "author": {
