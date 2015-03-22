@@ -1,6 +1,6 @@
 {
   "name": "speech-synthesis",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "My majestic module",
   "license": "MIT",
   "repository": "hemanth/speech-synthesis",
