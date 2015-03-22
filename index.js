@@ -2,7 +2,7 @@
 
 var getVoice = function filterVoice(q){
     q = q || "Veena"; // Indian Voice ;)
-    return (speechSynthesis.getVoices()
+    return (window.speechSynthesis.getVoices()
             .filter(function(v) {
                     return v.name.toUpperCase() === q.toUpperCase() || 
                            v.lang.toUpperCase() === q.toUpperCase()
@@ -13,16 +13,16 @@ var getVoice = function filterVoice(q){
 var talk = function (msg, voiceType){
     var person = new SpeechSynthesisUtterance(msg);
     person.voice = getVoice(voiceType);
-    speechSynthesis.speak(person);
+    window.speechSynthesis.speak(person);
 }
 
 
-talk.names = speechSynthesis.getVoices()
+talk.names = window.speechSynthesis.getVoices()
              .map(function(s) {
                 return s.name;
              });
 
-talk.langs = speechSynthesis.getVoices()
+talk.langs = window.speechSynthesis.getVoices()
              .map(function(s) {
                 return s.lang;
              }).reduce(function(prev, cur) {
