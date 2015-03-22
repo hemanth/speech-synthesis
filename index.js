@@ -29,4 +29,4 @@ talk.langs = speechSynthesis.getVoices()
                 return (prev.indexOf(cur) < 0) ? prev.concat([cur]) : prev;
              }, []);
 
-module.exports talk;
+module.exports = talk;
