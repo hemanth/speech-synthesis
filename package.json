@@ -1,6 +1,6 @@
 {
   "name": "speech-synthesis",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Speaks using the Web Speech API.",
   "license": "MIT",
   "repository": "hemanth/speech-synthesis",
@@ -13,7 +13,7 @@
     "node": ">= 4"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "node --check index.js"
   },
   "files": [
     "index.js"
@@ -23,6 +23,6 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "^12.0.3"
   }
 }
